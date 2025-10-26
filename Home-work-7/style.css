@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  height: 100vh;}
+
+.color-box {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  transition: background-color 0.2s;}
+
+.color-code {
+  text-align: center;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: #cebaba;
+  background: rgba(0, 0, 0, 0.3);}
